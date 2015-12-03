@@ -1,0 +1,341 @@
+/*parte do video primeira sessão*****************************************/	
+header{
+	background-color: rgba(255,255,255,0.1);
+}
+div#princ > h1{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 3.692em;
+	position:absolute;
+	top:20%;
+	text-align:center;
+	left:10%;
+	color:#fff;
+	width:80%;
+}
+#princ{
+	width:100%;
+	position:relative;
+	margin-bottom:0px;
+}
+.boxvideo{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	display:inline;
+}
+video[title="nossovideo"]{
+	width:40%;
+	position:absolute;
+	top:35%;
+	left:8%;
+	border: 15px solid black ;
+	border-radius:10px;
+	z-index:99;
+}
+#princ div > a[href="compra.html"]{
+	position:absolute;
+	top:45%;
+	right:8%;
+	font-size:2.692em;
+	font-weight:bold;
+	background-color:#f70;
+}
+#princ div > a[href="vender.html"]{
+	position:absolute;
+	top:65%;
+	right:8%;
+	font-size:2.692em;
+	font-weight:bold;
+	background-color:#5ea20d;
+}
+img[alt="next"]{
+	width:4%;
+	position:absolute;
+	top:85%;
+	right:47.8%;
+	transition:3s;
+}
+.fixar-next2{
+	float: left;
+	width:100%;
+	margin-bottom:30px;
+}
+img[alt="next2"]{
+	width:4%;
+	position:relative; top: -50px;
+	margin-left: 48%;
+	margin-right: 48%;
+}
+.boton1{
+	text-decoration:none;
+	width:16%;
+	color: #fff;
+	text-align: center;
+	padding: 0.8%;
+	border-radius: 8px;
+	min-width:190px;
+	opacity: 100;
+  }
+/*Foto do saiba mais*****************************************/	
+aside{
+	width:56%;
+	float:left;
+}
+img[alt="fundo2"]{
+	width:75%; 
+	margin-left:18%;	
+}
+/*Texto do saiba mais*****************************************/	
+.saiba{
+	width:36%;
+	height:400px;
+	float:left;
+	padding-right:8%;
+}
+nav > p {
+	color:#aaa;
+	font-size:1.231em;
+	text-align:right;
+	padding-top:3%;
+}
+nav > h1{
+margin-top:15%;
+font-size:320%;
+text-align:right;
+color:#272727;
+}
+nav div > a[href="saibamais.html"]{
+	width:21%;
+	position:absolute;
+	margin-top:6%;
+	right: 8%;
+	font-size:2.692em;
+	font-weight:bold;
+	background-color:#f00;
+	text-decoration:none;
+}
+/*Área de Pesquisa*****************************************/	
+main{
+	width: 100%;
+	float:left;
+}
+input[name="buscaprincipal"]{/* BUSCA DA PÁGINA*/
+	position: relative; top: 5px; left: 19%;
+	width: 62% /*600px*/;
+	height: 30px;
+	margin-bottom: 20px;
+	z-index: 1;
+}
+img[alt="iconebuscaPagina"]{
+	width: 20px;
+	height: 20px;
+	position: relative; top: 10px; left: 19%;
+	z-index: 2;
+}
+main > h2{
+	font-size:2.4em;
+	text-align: center;
+}
+.conteudo{
+	padding-left:10.5%;
+	padding-right:10.5%;	
+	width: 79%;
+}
+@media screen and (max-width: 960px){
+/*parte do video*****************************************/	
+div#princ > h1{
+	font-size: 270%;
+}
+video[title="nossovideo"]{
+	border: 10px solid black;
+}
+#princ div > a[href="compra.html"]{
+	top:45%;
+	font-size:200%;
+}
+#princ div > a[href="vender.html"]{
+	top:65%;
+	font-size:200%;
+}
+.boton1{
+	width:20%;
+	min-width:100px;
+  }
+/*Texto do saiba mais*****************************************/	
+.saiba{
+	margin-bottom:50px;
+	height:100%;
+}
+nav div > a[href="saibamais.html"]{
+	font-size:200%;
+}
+aside{
+	margin-bottom:50px;
+	height:100%;
+}
+nav > p {
+	font-size:100%;
+}
+nav > h1{
+	font-size:252%;
+}
+}
+@media screen and (max-width: 768px){
+/*parte do video*****************************************/	
+div#princ > h1{
+	font-size: 190%;
+	top:28%;
+}
+video[title="nossovideo"]{
+	border: 5px solid black;
+	top:45%;
+	width:35%;
+	left:9%;
+}
+#princ div > a[href="compra.html"]{
+	top:50%;
+	right:9%;
+	font-size:150%;
+}
+#princ div > a[href="vender.html"]{
+	top:70%;
+	right:9%;
+	font-size:150%;
+}
+.boton1{
+	width:20%;
+	min-width:100px;
+  }
+/*Texto do saiba mais*****************************************/	
+.saiba{
+	margin-bottom:50px;
+	height:100%;
+}
+nav div > a[href="saibamais.html"]{
+	font-size:150%;
+}
+aside{
+	margin-bottom:50px;
+	height:100%;
+}
+nav > p {
+	font-size:65%;
+}
+nav > h1{
+	font-size:160%;
+}
+/*Pesquisar*****************************************/	
+main{
+	width: 100%;
+	float:left;
+}
+input[name="buscaprincipal"]{/* BUSCA DA PÁGINA*/
+	height: 25px;
+}
+img[alt="iconebuscaPagina"]{
+	width: 15px;
+	height: 15px;
+	top: 8px;
+}
+main > h2{
+	font-size:1.3em;
+}
+}
+@media screen and (max-width: 480px){
+/*parte do video*****************************************/	
+#princ{
+	height: 100%;
+	padding-bottom:60px;
+	margin-bottom:20px;
+	background-color: #bbb;
+}
+div#princ > h1{
+	font-size: 110%;
+	top:90px;
+}
+video[title="nossovideo"]{
+	width:60%;
+	margin-top:120px;
+	position:relative;left:20%; right: 20%;
+	border: 5px solid black;
+}
+.boxvideo{
+	display:none;
+}
+#princ div > a[href="compra.html"]{
+	margin-top: 20px;
+	left:8%;
+	font-size:150%;
+}
+#princ div > a[href="vender.html"]{
+	margin-top: 20px;
+	right:8%;
+	font-size:150%;
+}
+.boton1{
+	width:35%;
+	min-width:0px;
+}
+.centralizar-botao{
+	width: 100%;
+	position: relative;
+}
+img[alt="next"]{
+	display: none;
+}
+img[alt="next2"]{
+	display: none;
+}
+/*Foto do saiba mais*****************************************/	
+aside{
+	width:100%;
+	float: left;	
+	margin-bottom:10px;
+}
+img[alt="fundo2"]{
+	width:74%; 
+	margin-left:13%;	
+	margin-right:13%;
+}
+/*Texto do saiba mais*****************************************/	
+.saiba{
+	margin-bottom:50px;
+	height:100%;
+	width:100%;
+	padding:0;
+	position: relative;
+}
+nav > h1{
+	margin-top:1%;
+	font-size:160%;
+	text-align:center;
+}
+nav > p {
+	font-size:80%;
+	text-align:center;
+	padding-top:2%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.centralizar-saibaMais{
+	width: 36.6%;
+	margin-left: 31.7%;	
+	margin-right: 31.7%;
+	height:50px;
+}
+nav div > a[href="saibamais.html"]{
+	font-size:150%;
+	float: left;
+	margin-top:10px;
+	margin-left: 39.7%;
+	margin-right: 23.7%;
+	width:35%;
+}
+
+#princ{
+	margin-bottom:0px;
+	background-image: url(../imagens/outras/fundo-mobile.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+}

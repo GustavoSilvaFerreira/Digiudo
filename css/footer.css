@@ -1,0 +1,184 @@
+/*Rodapé*****************************************/		
+footer{
+	text-align: center;
+	margin-top:50px;
+	float:left;
+	background-color:#272727;
+	color:#fff;
+	width: 96%; /*1110px;*/
+	min-width: 300px;
+	padding: 2%; /*10px;*/
+}
+footer div.blocos-footer{
+	float:left;
+	width: 30%; /*339px*/
+	margin-left: 1.6%;
+	margin-right: 1.6%;
+	height: 100px;	
+	text-align: center;
+}
+footer div div.blocos-footer-centro{
+	width: 100%; 
+}
+footer div.blocos-footer a img{
+	margin-top: 10px;
+}
+footer div.blocos-footer div img[src="imagens/icones/telefone.png"]{
+	width: 10% /*64px*/;
+	max-width: 64px;
+	margin-top: 10px;
+	float:left; 
+	padding-left: 10%;
+}
+footer div div div#ligue-gratis{
+	float: right;
+	width: 78%; 
+	padding-top: 10px;
+	font-size: 2.4em /*32px*/;
+	text-align: left;
+	color: #d1d1d1;
+}
+footer div div div.correio{
+	float: left;
+	width: 28%; 
+	min-width: 100px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 21px;
+	margin-left: 10%;
+	border-radius: 10px;
+	font-size: 2.4em;
+	text-align: center;
+	color: #272727;
+	background-color:#d1d1d1;
+}
+footer div div div.correio a{
+	text-decoration: none;
+	color: #272727;
+}
+.photo{
+	width: 10%;
+}
+.h3-footer{
+	font-weight: normal;
+}
+#identidade{
+	float: left;
+	width:100%;
+}
+@media screen and (max-width: 960px){
+
+footer div div div#ligue-gratis{
+	padding-top: 8px;
+	font-size: 1.8em;
+}
+footer div.blocos-footer div img[src="imagens/icones/telefone.png"]{
+	margin-top: 10px;
+}
+h3{
+	font-size: 1em;
+}
+p{
+	font-size: 0.8em;
+}
+footer div div div.correio{
+	padding-bottom: 2px;
+	margin-top: 5px;
+	margin-left: 40%;
+	font-size: 2em;
+}
+footer div.blocos-footer{
+	height: 90px;	
+}
+}
+@media screen and (max-width: 768px){
+
+footer div div div#ligue-gratis{
+	font-size: 1.2em;
+}
+footer div.blocos-footer div img[src="imagens/icones/telefone.png"]{
+	margin-top: 9px;
+}
+h3{
+	font-size: 0.8em;
+}
+p{
+	font-size: 0.6em;
+}
+footer div div div.correio{
+	margin-left: 30%;
+	font-size: 1.2em;
+	width: 28%; 
+	min-width: 80px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+footer div.blocos-footer{
+	height: 70px;	
+}
+}
+@media screen and (max-width: 480px){
+footer{
+	padding:0;
+	width: 100%;
+}
+footer div.blocos-footer{
+	width: 97%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	height: 60px;
+	margin-bottom: 10px;
+}
+footer div.blocos-footer >p{
+	margin-top: 5%;
+}
+.photo{
+	width: 5%;
+	min-width: 20px;
+}
+footer div div div#ligue-gratis{
+	font-size: 100%;
+	width: 50%;
+	float: left;
+	margin-left: 8%;
+	margin-top: 1%;
+}
+footer div.blocos-footer div img[src="imagens/icones/telefone.png"]{
+	width: 5% /*64px*/;
+	min-width: 20px;
+	float:left; 
+	padding-left: 20%;
+	margin-top: 3%;
+}
+h3{
+	font-size: 85%;
+}
+h3 span{
+	font-size: 85%;
+}
+p{
+	font-size: 70%;
+}
+span{
+	font-size: 70%;
+}
+footer div div div.correio{
+	width: 30%; 
+	min-width: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 100%;
+}
+footer div div.blocos-footer-centro{
+	position: relative; top: 10px;
+	width:50%; 
+	padding-left: 25%;
+	padding-right: 25%;
+}
+#identidade{
+	float: left;
+	width:100%;
+}
+}

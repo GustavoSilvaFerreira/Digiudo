@@ -1,0 +1,307 @@
+/*Foto do saiba mais*****************************************/	
+aside{
+	width:30%; /*357,5 px*/
+	float:left;
+	height:300px;
+	margin-top:120px;
+}
+.compra{
+	text-align:left;
+}
+.acc{
+	padding-left:6%;
+	padding-right:10%;
+}
+.acc2{
+	padding-left:8%;
+	padding-right:8%;
+}
+.comprabtn{
+	float:left;
+}	
+.vende{
+	text-align:right;
+}
+h1.vende span{
+	color:#5ea20d;
+}
+h1.compra span{
+	color:#f70;
+}
+/*Texto do saiba mais*****************************************/	
+.saiba{
+	width:38%;
+	height:300px;
+	float:left;
+	margin-top:120px;
+	padding-left:8%;
+	padding-right:8%;
+	min-width: 300px;
+}
+nav > p {
+	color:#aaa;
+	font-size:1.231em;
+	padding-top:3%;
+}
+nav > h1{
+	margin-top:10%;
+	font-size:3.86em;
+	width:100%;
+	text-align:left;
+}
+.top{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.topvideo{
+	margin-top:30px;
+}
+.degrade{
+	background-image: linear-gradient(#ccc, #fff);
+	background-repeat: repeat-x;
+	background-position: 0px -200px;
+}
+.boton{
+	background-color:#f70;
+	border-radius: 8px;
+	color: #fff;
+	font-size:1.923em;
+	font-weight:bold;
+	margin-top:3%;
+	min-width:240px;
+	padding: 0.8%;
+	position:absolute;
+	text-align: center;
+	text-decoration:none;
+	width:16%;
+}
+.botfrvender{
+	background-color:#5ea20d;
+	right: 8%;
+}
+video[title="videovender"]{
+	width:100%;
+	height: 230px;
+	border: 15px solid #272727 ;
+}
+video[title="videocomprar"]{
+	width:100%;
+	height: 230px;
+	border: 15px solid #272727;
+}
+@media screen and (max-width: 960px){
+/*Foto do saiba mais*****************************************/	
+.saiba{
+	width:38%;
+	height:250px;
+	min-width: 100px;
+}
+nav > h1{
+	margin-top:10%;
+	font-size:305%;
+	width:100%;
+	text-align:left;
+}
+nav > p {
+	color:#aaa;
+	font-size:100%;
+	padding-top:3%;
+}
+.boton{
+	padding: 0.8%;
+	min-width:100px;
+	width:26%;
+	font-size:170%;
+}
+aside{
+	width:30%; /*357,5 px*/
+	height:250px;
+	margin-top:120px;
+}
+.acc{
+	padding-left:6%;
+	padding-right:10%;
+}
+.topvideo{
+	margin-top:30px;
+}
+video[title="videocomprar"]{
+	width:100%;
+	height: 150px;
+	border: 10px solid #272727;
+}
+.acc2{
+	padding-left:8%;
+	padding-right:8%;
+}
+/*Texto do saiba mais*****************************************/	
+.top{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+video[title="videovender"]{
+	width:100%;
+	height: 150px;
+	border: 10px solid #272727 ;
+}
+}
+@media screen and (max-width: 768px){
+/*Foto do saiba mais*****************************************/	
+.saiba{
+	width:38%;
+	height:200px;
+	margin-top:100px;
+	min-width: 100px;
+}
+nav > h1{
+	margin-top:10%;
+	font-size:189%;
+	width:100%;
+	text-align:left;
+}
+nav > p {
+	color:#aaa;
+	font-size:80%;
+	padding-top:3%;
+}
+.boton{
+	padding: 0.8%;
+	min-width:100px;
+	width:130px;
+	font-size:100%;
+}
+aside{
+	width:30%; /*357,5 px*/
+	height:200px;
+	margin-top:100px;
+}
+.acc{
+	padding-left:6%;
+	padding-right:10%;
+}
+.topvideo{
+	margin-top:30px;
+}
+video[title="videocomprar"]{
+	width:100%;
+	height: 100px;
+	border: 8px solid #272727;
+}
+.acc2{
+	padding-left:8%;
+	padding-right:8%;
+}
+/*Texto do saiba mais*****************************************/	
+.top{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+video[title="videovender"]{
+	width:100%;
+	height: 100px;
+	border: 8px solid #272727 ;
+}
+.degrade{
+	background-position: 0px -110px;
+}
+}
+@media screen and (max-width: 480px){
+/*Foto do saiba mais*****************************************/	
+aside{
+	width:100%;
+	height:150px;
+	margin-top:50px;
+}
+.compra{
+	text-align:center;
+}
+.acc{
+	padding-left:0%;
+	padding-right:0%;
+}
+.comprabtn{
+	float:left;
+}	
+.vende{
+	text-align:center;
+}
+h1.vende span{
+	color:#5ea20d;
+	font-size:100%;
+}
+h1.compra span{
+	color:#f70;
+	font-size:100%;
+}
+/*Texto do saiba mais*****************************************/	
+.saiba{
+	width:100%;
+	height:100px;
+	margin-top:80px;
+	padding-left:0%;
+	padding-right:0%;
+	min-width: 300px;
+}
+nav > p {
+	width: 80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:100%;
+	padding-top:3%;
+}
+nav > h1{
+	margin-top:10%;
+	font-size:150%;
+	width:100%;
+	text-align:center;
+}
+.top{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.topvideo{
+	margin-top:20px;
+}
+.acc2{
+	margin-top:150px;
+	padding-left:0%;
+	padding-right:0%;
+}
+.position-mobile{
+	position: absolute;
+	top:380px;
+	height: 100px;
+	background-position: 1000px -50px;
+}
+.degrade{
+	background-position: 0px -200px;
+}
+.botfrvender{
+	right: 0%;
+}
+.boton{
+	width:34%;
+	padding: 1%;
+	min-width:0px;
+	float: left;
+	margin-left: 32%;
+	margin-right: 32%;
+	margin-top:3%;
+	font-size:80%;
+	position:relative;
+}
+video[title="videovender"]{
+	width:60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 90%;
+	border: 6px solid #272727 ;
+}
+video[title="videocomprar"]{
+	width:60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 90%;
+	border: 6px solid #272727;
+}
+}

@@ -1,0 +1,534 @@
+/*MENU MINHA CONTA*/
+.minha-conta{
+	position: absolute; top: 20px; right: 30%; /*220px;*/
+	width: 20%; /*570px;*/
+	height:30px;
+	font-size: 1.5em;
+	z-index:10;
+	background-color: #fff;
+	text-align: left;
+}
+ul#menu-minha-conta{
+	position: relative; left: 0%; top:0px;
+	width: 95%;
+	height:25px;	
+	padding-top:2.5px;
+	padding-bottom:0;
+	padding-left:5%;
+	padding-right:0;
+	list-style-type: none;
+	background-color: #fff;
+	background-image: url(../imagens/icones/seta_baixo.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 95% 6px;
+	cursor: pointer;
+}
+ul#subMenu-minha-conta{
+	position: relative; top: 2.5px; left: -5.2%;
+	width: 100%;
+	height: 200px;
+	padding-top: 0;
+	padding-bottom:10px;
+	padding-left: 5%;
+	padding-right:0;
+	background-color: #272727;
+	text-align: left;
+}
+ul#subMenu-minha-conta li a{
+	width: 99%;
+	height:25px;
+	margin-left: -5%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 5%;
+	display: block;
+	text-align: left;
+	font-size: 1em;
+	list-style-type: none;
+}
+/* BREADCRUMBS */
+div#breadcrumbs{
+	top: 140px;
+	background-color: #fff;
+	border-top: none;
+}
+/* NAV - Menu superior*/
+.icone{
+	width: 9.5% /*109px*/;
+	height: 63px;
+	padding-top: 5px;
+	padding-left: 2.2%;
+	padding-right: 2.2%;
+	transition: 0.5s;
+	max-width: 109px;
+}
+.icone:hover{
+	transition: 0.5s;
+	background-color:#fff;
+}
+nav#menu-superior{
+	position: fixed; top: 70px;
+	width: 100%; /*1130px;*/
+	height:64px;
+	padding-bottom: 6px;
+	background-color: #f7f7f7;
+	border-top: solid 2px #f70;
+	z-index: 8;
+	display:block;
+}
+nav ul{
+	width: 85%; /*1130px;*/
+	margin-left: 8%;
+	margin-right: 8%;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+/*AREA PERFIL*/
+main{
+	width: 79%;
+	margin-left: 10.5%;
+	margin-right: 10.5%;
+	float: left;
+	margin-top:200px;
+	text-align: left;
+	/*background-color: #888;*/
+}
+#foto-perfil{
+	width: 150px; /*200px;*/
+	height: 150px;
+	float: left;
+	margin-right: 2%; /*20px;*/
+	border-radius: 5px;
+
+}
+#foto-ganhos{
+	float: right;
+	width: 65%; /*128px;*/
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	border-radius: 5px;
+}
+main div#ganhos > p{
+	font-weight:bold;
+	font-size:2em;
+	color:#5ea20d;
+	padding-left: 1%;
+}
+main div#ganhos > h2{
+	font-size:1.1em;
+}
+#perfil{
+	width: 38%; /*565px;*/
+	float:left;
+}
+
+#ganhos{
+	width: 62%; /*565px;*/
+	float:left;
+}
+h2{
+	margin-left: 1%;
+}
+.destaque{
+	width: 19% /*226px*/;
+	margin: 0.5%;	
+	float: left;
+	transition: 0.5s;
+}
+/* ASIDE - DESTAQUES*/ 
+aside#principal{
+	position: relative; top: 60px; left: 0%;
+	width: 79%;
+	margin-left: 10.5%;
+	margin-right: 10.5%;
+}
+.anuncio{
+	float: left;
+	width: 20% /*233px*/;
+	margin: 1.5% /*5px*/;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 2px 1px 2px 2px #ccc;
+	text-align: center;
+	padding:1%;
+}
+.anuncio1{
+	width: 80%;
+	border-radius: 2px;
+}
+.tvideo{
+	background-color:#466;
+	padding:1%;
+	text-align:center;
+	font-size:2.2em;
+	margin-bottom:10px;
+	color:#fff;
+}
+.dest{
+	margin-bottom:10px;
+	font-size: 1em;
+}
+.link{
+	color: #272727;
+}
+.link:hover{
+	color: #ff9900;
+}
+input[type="submit"]{
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.boton{
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(#f7f7f7, #5ea20d);
+  background-repeat: repeat-x;
+  width:100%;
+  padding: 4% 5%/*13px 25px*/;
+  font-size: 1em;
+  border-radius: 4px;
+}
+.boton:hover{
+  background-color: #5ea20d;
+  color: #fff;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+p> span{
+	font-weight:bold;
+	font-size:2em;
+	color:#5ea20d;
+}
+footer{
+	margin-top:100px;
+}
+@media screen and (max-width: 960px){
+/*MENU MINHA CONTA*/
+.minha-conta{
+	top: 22px;
+	font-size: 1.4em;
+}
+ul#menu-minha-conta{
+	padding-top:5px;
+}
+ul#subMenu-minha-conta{
+	left: -5.1%;
+}
+ul#subMenu-minha-conta li a{
+	font-size: 0.9em;
+}
+div#breadcrumbs{
+	top: 128px;
+}
+/* NAV - Menu superior*/
+.icone{
+	width: 9% /*109px*/;
+	height: 50px;
+}
+nav#menu-superior{
+	height:50px;
+}
+/*AREA PERFIL*/
+#foto-perfil{
+	width: 120px; /*200px;*/
+	height: 120px;
+	float: left;
+	margin-right: 3%; /*20px;*/
+}
+#foto-ganhos{
+	width: 55%; /*128px;*/
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+main div#ganhos > h2{
+	font-size:1em;
+}
+main div#ganhos > p{
+	font-size:1.8em;
+	padding-left: 2%;
+}
+#perfil{
+	width: 38%; /*565px;*/
+}
+#ganhos{
+	width: 62%; /*565px;*/
+}
+.destaque{
+	width: 19% /*226px*/;
+	margin: 0.5%;	
+	float: left;
+	transition: 0.5s;
+}
+/* ASIDE - DESTAQUES*/ 
+aside#principal{
+	top: 60px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+aside#principal > h2{
+	font-size: 1.5em;
+	margin-left: 5%;
+}
+.anuncio{
+	width: 20%;
+	margin: 1.5%;
+	padding:1%;
+}
+.dest{
+	margin-bottom:10px;
+	font-size: 0.9em;
+}
+.tvideo{
+	font-size:1.8em;
+}
+p.tvideo + p{
+	font-size: 1em;
+}
+p> span{
+	font-size:2em;
+}
+.boton{
+  font-size: 1em;
+}
+.link{
+	font-size: 0.9em;
+}
+}
+@media screen and (max-width: 768px){
+/*MENU MINHA CONTA*/
+.minha-conta{
+	top: 20px; right: 36%;
+	width: 20%;
+	min-width: 150px;
+	height:30px;
+	font-size: 1.4em;
+}
+#pesq{
+	width: 80%;
+	min-width: 120px;
+}
+ul#menu-minha-conta{
+	padding-top:5px;
+}
+ul#subMenu-minha-conta{
+	left: -5%;
+}
+ul#subMenu-minha-conta li a{
+	font-size: 0.9em;
+}
+div#breadcrumbs{
+	top: 113px;
+}
+/* NAV - Menu superior*/
+.icone{
+	width: 9% /*109px*/;
+	height: 35px;
+}
+nav#menu-superior{
+	height:35px;
+}
+/*AREA PERFIL*/
+#foto-perfil{
+	width: 120px; /*200px;*/
+	height: 120px;
+	float: left;
+	margin-right: 3%; /*20px;*/
+}
+#foto-ganhos{
+	width: 55%; /*128px;*/
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+main div#ganhos > h2{
+	font-size:0.9em;
+}
+main div#ganhos > p{
+	font-size:1.8em;
+	padding-left: 2%;
+}
+#perfil{
+	width: 80%;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	margin-right:10%;
+}
+#ganhos{
+	width: 80%;
+	margin-left: 10%;
+	margin-right:10%;
+}
+.destaque{
+	width: 19% /*226px*/;
+	margin: 0.5%;	
+	float: left;
+	transition: 0.5s;
+}
+/* ASIDE - DESTAQUES*/ 
+aside#principal{
+	top: 60px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+aside#principal > h2{
+	font-size: 1.5em;
+	margin-left: 5%;
+}
+.anuncio{
+	width: 40%;
+	margin-left: 4%;
+	margin-right: 4%;
+	padding:1%;
+}
+.dest{
+	margin-bottom:10px;
+	font-size: 0.9em;
+}
+.tvideo{
+	font-size:1.8em;
+}
+p.tvideo + p{
+	font-size: 1em;
+}
+p> span{
+	font-size:2em;
+}
+.boton{
+  font-size: 1em;
+}
+.link{
+	font-size: 0.9em;
+}
+}
+@media screen and (max-width: 480px){
+/*MENU MINHA CONTA*/
+.minha-conta{
+	top: 20px; right: 25%;
+	width: 20%;
+	min-width: 130px;
+	height:25px;
+	font-size: 1.1em;
+}
+header ul li{
+	background-color:none;		
+}
+ul#menu-minha-conta{	
+	padding-top:0px;
+	background-size: 15px;
+}
+ul#subMenu-minha-conta{
+	height: 230px;
+	padding-bottom:10px;
+	padding-left: 5%;
+	padding-right:0;
+}
+ul#subMenu-minha-conta li a{
+	height:20px;
+	font-size: 1em;
+}
+.burger{
+	padding: 3px 0px;
+	position: relative;
+	cursor: pointer;
+}
+/* NAV - Menu superior*/
+.icone{
+	width: 25% /*109px*/;
+	height: 45px;
+}
+nav#menu-superior{
+	top:59.5px;
+	height:154px;
+}
+div#breadcrumbs{
+	top: 60px;
+	padding-top: 2px;
+	border-top: solid 2px #f70;
+}
+/*AREA PERFIL*/
+#foto-perfil{
+	width: 80px;
+	height: 80px;
+	margin-right:5%;
+}
+#foto-ganhos{
+	width: 100%; /*128px;*/
+	margin-right: 0%;
+	margin-left: 0%;
+}
+main div#ganhos > h2{
+	font-size:1em;
+}
+main div#ganhos > p{
+	font-size:1.8em;
+	padding-left: 2%;
+}
+#perfil{
+	width: 100%;
+	margin-top: -90px;
+	margin-bottom: 30px;
+	margin-left: 0%;
+	margin-right:0%;
+}
+#ganhos{
+	width: 80%;
+	margin-left: 10%;
+	margin-right:10%;
+}
+.destaque{
+	width: 19% /*226px*/;
+	margin: 0.5%;	
+	float: left;
+	transition: 0.5s;
+}
+/* ASIDE - DESTAQUES*/ 
+aside#principal{
+	top: 30px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+aside#principal > h2{
+	font-size: 1.2em;
+	margin-left: 5%;
+}
+.anuncio{
+	width: 80%;
+	margin-left: 9%;
+	margin-right: 9%;
+	padding:1%;
+}
+.dest{
+	margin-bottom:10px;
+	font-size: 1em;
+}
+.tvideo{
+	font-size:1.8em;
+}
+p.tvideo + p{
+	font-size: 1em;
+}
+p> span{
+	font-size:2em;
+}
+.boton{
+  font-size: 1em;
+}
+.link{
+	font-size: 0.9em;
+}
+#pesq{
+	display: none;
+}
+}

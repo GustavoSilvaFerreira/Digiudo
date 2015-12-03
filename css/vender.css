@@ -1,0 +1,258 @@
+/*div login*****************************************/	
+aside{
+	width:46%;
+	padding:1%;
+	float:left;
+	height:550px;
+	border-radius:10px;
+	background-color:#eef;
+	margin-right:2%;
+	margin-left:4%;
+	margin-top:120px;
+}
+aside > h1 {
+	font-size:1.231em;
+	margin-top:18%;
+	margin-left:7%;
+}
+input[name="login"]{
+	width:48%;
+	border-radius:5px;
+	padding:0.5%;
+	margin-top:7%;
+	margin-left:2%;
+}
+label + a {
+	font-size:0.923em;
+}
+label + a:hover {
+	font-size:0.923em;
+	text-decoration:underline;
+}
+label{
+	margin-left:2%;
+	font-weight:bold;
+}
+.sen{
+	margin-left:14%;
+}
+input[name="senha"]{
+	width:48%;
+	border-radius:5px;
+	padding:0.5%;
+	margin-top:7%;
+	margin-left:2%;
+	margin-right:1%;
+}
+input[name="lembre-me"]{
+	margin-left:21%;
+	margin-top:3%;
+	margin-right:1%;
+}
+/* css do botao entrar, */
+.boton{
+  margin-bottom: 0;
+  color: #333333;
+  text-align: center;
+  background-image: linear-gradient(#ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  padding: 2% 4%;
+  font-size: 1.346em;
+  border-radius: 4px;
+}
+input[value="Entrar"]{
+	float:left;
+	margin-top:3%;
+	margin-left:23%;
+}
+.boton:hover{
+  background-color: #e6e6e6;
+  color: #33a333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+/*div cadastrar-se*****************************************/	
+.saiba{
+	width:42%;
+	padding:1%;
+	height:550px;
+	float:left;
+	border-radius:10px;
+	background-color:#eef;
+	margin-top:120px;
+}
+nav > h2{
+	font-size:1.231em;
+	margin-top:5%;
+	margin-left:7%;
+}
+h2 + p{
+	margin-top:5px;
+	margin-left:8.4%;
+}
+input + p{
+	margin-top:5px;
+	margin-left:8.4%;
+}
+.text-coment{
+	color:#aaa;
+	font-size:1.000em;
+}
+.text-coment:hover{
+	font-size:1.000em;
+}
+.inpcadastrar{
+	width:55%;
+	border-radius:5px;
+	padding:0.5%;
+}
+.asf{
+	margin-top:20px;
+	margin-right:20%;
+	text-align:right;
+}
+.block{
+	display:block;
+	margin-left:23%;
+	margin-top:10px;
+}
+.top{
+	margin-left:34.5%;
+	margin-top:15px;
+}
+input[value="Cadastrar-me"]{
+	margin-left:34.5%;
+	margin-top:15px;
+}
+aside a:hover{
+	color:#f70;
+}
+nav a:hover{
+	color:#f70;
+}
+@media screen and (max-width: 960px){
+aside{
+	width:44%;
+}
+.saiba{
+	width:44%;
+}
+input[value="Entrar"]{
+	margin-left:26%;
+}
+input[value="Cadastrar-me"]{
+	margin-left:26%;
+}
+.block{
+	margin-left:26%;
+}
+input[name="lembre-me"]{
+	margin-left:26%;
+}
+/*div cadastrar-se*****************************************/	
+.inpcadastrar{
+	width:65%;
+}
+.top{
+	margin-left:29%;
+}
+.text-coment{
+	font-size:0.9em;
+}
+}
+@media screen and (max-width: 768px){
+aside{
+	width:94%;
+	padding:1%;
+	height:100%;
+	margin:2%;
+	margin-top:25%;
+}
+aside > h1 {
+	margin-top:5%;
+}
+.saiba{
+	width:94%;
+	padding:1%;
+	margin:2%;
+	height:520px;
+	margin-top:5%;
+}
+input[value="Entrar"]{
+	margin-left:22%;
+	margin-bottom:10%;
+}
+input[value="Cadastrar-me"]{
+	margin-left:26%;
+}
+.block{
+	margin-left:22%;
+}
+input[name="lembre-me"]{
+	margin-left:22%;
+}
+/*div cadastrar-se*****************************************/	
+.inpcadastrar{
+	width:65%;
+}
+.top{
+	margin-left:29%;
+}
+.text-coment{
+	font-size:0.9em;
+}
+}
+@media screen and (max-width: 480px){
+aside{
+	width:98%;
+	height:100%;
+	margin:0;
+	margin-top:35%;
+}
+aside > h1 {
+	font-size:1em;
+}
+input[name="login"]{
+	font-size:1.2em;
+}
+input[name="senha"]{
+	font-size:1.2em;
+}
+.saiba{
+	width:98%;
+	margin:0;
+	height:510px;
+	margin-top:5%;
+}
+nav > h2{
+	font-size:1em;
+}
+input[value="Entrar"]{
+	margin-left:26%;
+	margin-bottom:10%;
+}
+input[value="Cadastrar-me"]{
+	margin-left:26%;
+}
+.block{
+	margin-left:26%;
+}
+input[name="lembre-me"]{
+	margin-left:26%;
+}
+/*div cadastrar-se*****************************************/	
+.inpcadastrar{
+	width:65%;
+	font-size:1.2em;
+}
+.top{
+	margin-left:29%;
+}
+.text-coment{
+	font-size:0.8em;
+}
+}

@@ -1,0 +1,387 @@
+
+/* NAV - Menu Lateral*/
+
+nav#menu-lateral {
+	position: fixed; top: 120px; 
+	width: 13% /*190px*/;
+	height: 65% /*430px*/;
+	min-height: 430px;
+	background-color: #f7f7f7;
+}
+nav ul li#menu-lateral-cat {
+	color: #fff;
+	padding-bottom: 10px;
+	text-decoration:none;
+	font-family:verdana;
+	font-size:1.3em /*17px*/;
+	padding-left: 15.7% /*30px*/;
+	background-color: #272727;
+}
+nav ul li{
+	list-style-type: none;
+	padding-top: 10px;	
+	text-align: left;
+}
+nav ul li a{
+	color: #272727;
+	margin: 15.7% /*30px*/;
+	text-decoration:none;
+	font-family:verdana;
+	font-size:1.3em /*17px*/;
+}
+nav ul li a:hover{
+	color: #ff9900;
+}
+
+	/* MAIN - Area de conteúdo*/
+
+
+	#banner-cima{/* BANNER DE CIMA*/
+		position: relative; top: 0px;
+		width: 100% /*730px*/;
+		height: 90px;
+		z-index: 1;
+	}
+
+	#banner-baixo{/* BANNER DE BAIXO*/
+		position: relative; top: 0px;
+		width: 100% /*730px*/;
+		height: 90px;
+		z-index: 1;
+	}
+
+
+input[name="buscaprincipal"]{/* BUSCA DA PÁGINA*/
+	position: relative; top: 5px; left: 8%;
+	width: 82% /*600px*/;
+	height: 30px;
+	margin-bottom: 20px;
+	z-index: 1;
+}
+img[alt="iconebuscaPagina"]{
+	width: 20px;
+	height: 20px;
+	position: relative; top: 10px; left: 8%;
+	z-index: 2;
+}
+#texto-busca{
+	width: 100%;
+	font-size: 2.4em /*32px*/;
+	text-align: center;
+	float: left;
+	z-index: 1;
+}
+
+
+main#principal{
+	float: left;
+	margin-left: 14.6%;
+	margin-top: 120px;
+	width: 67.6% /*730px*/;
+	/*background-color: #ccc;*/
+	z-index: 1;
+}
+h2{
+	font-size: 1.5em /*20px*/;
+}
+div#dinamico{
+	width: 100%;
+	float: left;
+}
+
+.anuncio{
+	float: left;
+	width: 30% /*233px*/;
+	margin: 0.6% /*5px*/;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 2px 1px 2px 2px #ccc;
+	text-align: center;
+	padding:1%;
+}
+.anuncio1{
+	width: 80%;
+	border-radius: 2px;
+}
+.tvideo{
+	background-color:#466;
+	padding:1%;
+	text-align:center;
+	font-size:2.4em;
+	margin-bottom:10px;
+	color:#fff;
+}
+
+.dest{
+	margin-bottom:10px;
+}
+
+p> span{
+	font-weight:bold;
+	font-size:2.4em;
+	color:#5ea20d;
+}
+
+div#bloco-proximo{
+	width: 16.5%;
+	margin-left: 41.75%;
+	margin-right: 41.75%;
+	float: left;
+	font-size: 15px;
+}
+.proximo{
+	float: left;
+	width: 20%;
+	margin-left: 2%;
+	margin-top: 8%;
+	margin-bottom: 8%;
+	padding-top:6%;
+	padding-bottom:6%;
+	background-color:rgb(39,39,39);
+	text-align: center;
+	color: #fff;
+}
+/* BANNER LATERAL*/
+
+#banner-lateral{
+	position: fixed; top: 120px; right: 0px;
+	width: 16% /*190px*/;
+	height: 65% /*430px*/;
+	min-height: 430px;
+}
+
+footer{
+	position: relative; top: 20px;
+	z-index: 8;
+}
+.link{
+	color: #272727;
+}
+.link:hover{
+	color: #ff9900;
+}
+.boton{
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(#f7f7f7, #5ea20d);
+  background-repeat: repeat-x;
+  width:100%;
+  padding: 4% 5%;
+  font-size: 1.346em;
+  border-radius: 4px;
+}
+.boton:hover{
+  background-color: #5ea20d;
+  color: #fff;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+@media screen and (max-width: 960px){
+/* NAV - Menu Lateral*/
+nav#menu-lateral {
+	width: 13% /*190px*/;
+	height: 65% /*430px*/;
+	min-height:200px;
+}
+nav ul li#menu-lateral-cat {
+	font-size:1.1em;
+}
+nav ul li a{
+	font-size:0.9em;
+}
+/* MAIN - Area de conteúdo*/
+#banner-cima{/* BANNER DE CIMA*/
+	height: 65px;
+}
+#banner-baixo{/* BANNER DE BAIXO*/
+	height: 65px;
+}
+input[name="buscaprincipal"]{/* BUSCA DA PÁGINA*/
+	height: 25px;
+}
+#texto-busca{
+	font-size: 2em;
+}
+.tvideo{
+	font-size:1.8em;
+}
+.dest{
+	font-size: 0.9em;
+}
+p> span{
+	font-size:1.5em;
+}
+.boton{
+  font-size: 1em;
+}
+.link{
+	font-size: 0.9em;
+}
+div#bloco-proximo{
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+	font-size: 13px;
+}
+.proximo{
+	width: 23%;
+	padding-top:6%;
+	padding-bottom:6%;
+}
+/* BANNER LATERAL*/
+#banner-lateral{
+	width: 16% /*190px*/;
+	height: 65% /*430px*/;
+	min-height: 200px;
+}
+}
+@media screen and (max-width: 768px){
+/* NAV - Menu Lateral*/
+nav#menu-lateral {
+	width: 18% /*190px*/;
+	height: 65% /*430px*/;
+	min-height:200px;
+}
+nav ul li#menu-lateral-cat {
+	font-size:0.95em;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+nav ul li a{
+	font-size:0.8em;
+}
+/* MAIN - Area de conteúdo*/
+main#principal{
+	margin-left: 19.6%;
+	width: 57.6%;
+}
+#banner-cima{/* BANNER DE CIMA*/
+	height: 50px;
+}
+#banner-baixo{/* BANNER DE BAIXO*/
+	height: 50px;
+}
+input[name="buscaprincipal"]{/* BUSCA DA PÁGINA*/
+	height: 25px;
+}
+img[alt="iconebuscaPagina"]{
+	width: 15px;
+	height: 15px;
+	top: 8px;
+}
+#texto-busca{
+	font-size: 1.3em;
+}
+.anuncio{
+	width: 46.8%;
+	margin-bottom: 1%;
+}
+.tvideo{
+	font-size:1.3em;
+}
+.dest{
+	font-size: 0.7em;
+}
+p> span{
+	font-size:1.4em;
+}
+.boton{
+  font-size: 0.8em;
+}
+.link{
+	font-size: 0.8em;
+}
+div#bloco-proximo{
+	font-size: 10px;
+}
+.proximo{
+	width: 23%;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+/* BANNER LATERAL*/
+#banner-lateral{
+	width: 21% /*190px*/;
+	height: 50% /*430px*/;
+	min-height: 200px;
+}
+}
+@media screen and (max-width: 480px){
+/* NAV - Menu Lateral*/
+nav#menu-lateral {
+	position: relative; top: 100px;
+	width: 100%;
+	height: 50%;
+	min-height:0px;
+}
+nav ul li#menu-lateral-cat {
+	font-size:1.1em;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+nav ul li a{
+	font-size:0.9em;
+}
+/* MAIN - Area de conteúdo*/
+main#principal{
+	margin-left: 0%;
+	margin-top: 110px;
+	float: left;
+	width: 100%;
+}
+#banner-cima{/* BANNER DE CIMA*/
+	height: 50px;
+}
+#banner-baixo{/* BANNER DE BAIXO*/
+	height: 50px;
+}
+#texto-busca{
+	font-size: 1.2em;
+}
+.anuncio{
+	width: 80%;
+	margin-bottom: 2%;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+.tvideo{
+	font-size:1.4em;
+}
+.dest{
+	font-size: 1.2em;
+}
+p> span{
+	font-size:1.8em;
+}
+.boton{
+  font-size: 1.2em;
+}
+.link{
+	font-size: 0.9em;
+}
+div#bloco-proximo{
+	font-size: 10px;
+}
+.proximo{
+	width: 23%;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+/* BANNER LATERAL*/
+#banner-lateral{
+	display: none;
+}
+.cabeca2{
+	background-image:url(../imagens/icones/seta_baixo_branco.png);
+	background-repeat:no-repeat;
+	background-size:20px;
+	background-position: 95%;
+	
+}
+}
